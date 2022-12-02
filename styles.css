@@ -1,0 +1,82 @@
+/* font-family: 'Italiana', serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+.hero-section{
+    font-family: 'Italiana', serif;
+    font-size: 2rem;
+    text-align: center;
+    padding: 3em 0;
+    background-image: url(img/hero-img.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #e9edc9;
+    text-shadow: 0 0 5px black;
+    letter-spacing: 5px;
+}
+.hero-section h1{
+    margin-bottom: 0.3em;
+}
+.place-section, .food-section{
+    background-color: #e9edc9;
+    font-size: 1rem;
+    padding: 1.5em;
+}
+.place-section h2, .food-section h2{
+    padding: 1.5em 0;
+    font-family: 'Italiana', serif;
+}
+.place-container, .food-container{
+    display: flex;
+    justify-content: space-around;
+}
+.place-container div, .food-container div{
+    width: 300px;
+}
+.food-section{
+    /* background-color: #fd5225; */
+    background-color: #ffbf69;
+}
+.guide-section{
+    padding: 1.5em;
+    background-color: #ECE2DA;
+}
+.guide-section .card{
+    max-width: 700px;
+    background-color: #ECE2DA;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    line-height: 2rem;
+    color: #896f12;
+
+}
+.card img{
+    width: 200px;
+}
+.greeting{
+    width: 400px;
+}
+.greeting h3{
+    margin-bottom: 1em;
+    font-family: 'Italiana', serif;
+}
+.greeting h4{
+    font-size: 1.2rem;
+    color: #fd5225;
+}
+
